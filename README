@@ -1,1 +1,10 @@
-Sample readme file for musg2tool project.
+# musg2tool
+
+Compiling and installing with autotools:
+`./configure && make && make install`
+
+Compiling with GNU C compiler:
+`gcc -o musg2tool ./src/musg2tool.c -lusb -lusb-1.0`
+
+# About
+Work-in-progress project. Only color changes working so far.
